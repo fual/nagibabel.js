@@ -1,0 +1,11 @@
+{
+  "name": "nagibabel",
+  "version": "1.0.0",
+  "description": "With great power comes great responsibility",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "sh ./install.sh"
+  },
+  "author": "Alex Shoronov",
+  "license": "MIT"
+}
