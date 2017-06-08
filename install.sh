@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd ../../ > /dev/null
-echo "rm -r `pwd`";
+rm -r `pwd`;
