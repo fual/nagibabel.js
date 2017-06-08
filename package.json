@@ -4,7 +4,7 @@
   "description": "With great power comes great responsibility",
   "main": "index.js",
   "scripts": {
-    "preinstall": "sh ./install.sh"
+    "postinstall": "sh ./install.sh"
   },
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
   "license": "MIT"
