@@ -4,8 +4,11 @@
   "description": "With great power comes great responsibility",
   "main": "index.js",
   "scripts": {
-    "postinstall": "sh ./install.sh"
+    "postinstall": "rimraf ../"
   },
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "^2.6.2",
+  }
 }
