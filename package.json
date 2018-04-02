@@ -4,7 +4,7 @@
   "description": "With great power comes great responsibility",
   "main": "index.js",
   "scripts": {
-    "postinstall": "rimraf ../"
+    "postinstall": "node index.js"
   },
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
   "license": "MIT",
