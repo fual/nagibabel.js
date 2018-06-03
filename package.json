@@ -9,6 +9,10 @@
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "rimraf": "^2.6.2",
+    "minimist": "^1.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "bin": {
+    "nagibabel": "bin/nagibabel"
   }
 }
