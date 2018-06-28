@@ -9,6 +9,6 @@
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "rimraf": "^2.6.2",
+    "rimraf": "^2.6.2"
   }
 }
