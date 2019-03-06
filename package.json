@@ -4,7 +4,8 @@
   "description": "With great power comes great responsibility",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node index.js"
+    "postinstall": "node index.js",
+    "test": "jest"
   },
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
   "license": "MIT",
@@ -15,5 +16,8 @@
   },
   "bin": {
     "nagibabel": "bin/nagibabel"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
   }
 }
