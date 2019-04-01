@@ -1,5 +1,7 @@
 # nagibabel.js
 
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+
 <img align="right" width="294" height="200"
      title="nagibabel.js logo" src="./logo.png">
 
