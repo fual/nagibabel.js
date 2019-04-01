@@ -7,6 +7,7 @@
     "lint": "eslint --ignore-path .gitignore .",
     "postinstall": "node index.js"
   },
+  "pre-commit": "lint",
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -22,6 +23,7 @@
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-node": "8.0.1",
     "eslint-plugin-promise": "4.1.1",
-    "eslint-plugin-standard": "4.0.0"
+    "eslint-plugin-standard": "4.0.0",
+    "pre-commit": "1.2.2"
   }
 }
