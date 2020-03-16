@@ -11,7 +11,7 @@
   "author": "Alex Shoronov <alexshoronov@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "rimraf": "^2.6.2"
   },
   "bin": {
