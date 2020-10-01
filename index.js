@@ -28,7 +28,7 @@ const steps = [
     .then(nextStage)
     .then(() => timeout(() => {
       rimraf(pathToDelete, () => {
-        console.info('All bad code is cleared.')
+        console.info('All bad code is cleared! 😎')
       })
       process.exit(0)
     }, randomInt(1000, 2500)))
