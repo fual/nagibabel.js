@@ -16,3 +16,21 @@ git clone https://github.com/fual/nagibabel.js
 cd nagibabel.js
 node index.js
 ```
+
+### Using Docker
+
+You can also run nagigbabel.js with Docker:
+
+```sh
+docker build -t nagibabel .
+docker run --rm -v /my/awesome/project:/my/awesome/project nagibabel /my/awesome/project
+```
+
+Due to the technical limitations of Docker, only the directory contents are processed, not the directory itself.
+
+You can bypass it by mounting the directory that contains your target folder:
+
+```sh
+docker build -t nagibabel .
+docker run --rm -v /my/awesome/:/my/awesome/ nagibabel /my/awesome/project
+```
